@@ -97,6 +97,8 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 For questions or suggestions, feel free to reach out:
 
 Email: prashansa.dhomaneofficial@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/prashansadhomane/
+
 Portfolio:https://tinyurl.com/prash-portfolio
 
