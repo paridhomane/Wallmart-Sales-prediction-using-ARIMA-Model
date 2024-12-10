@@ -57,17 +57,19 @@ Install dependencies using:
 bash
 Copy code
 pip install -r requirements.txt
+
 Steps
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/walmart-sales-analysis.git
+git clone https://github.com/paridhomane/walmart-sales-analysis.git
 cd walmart-sales-analysis
 Run the Jupyter Notebook:
 bash
 Copy code
 jupyter notebook
 Explore visualizations and modeling outputs.
+
 File Structure
 plaintext
 Copy code
