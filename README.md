@@ -13,31 +13,35 @@ Temperature: Average temperature for the week.
 Fuel_Price: Average fuel price for the week.
 CPI (Consumer Price Index): Measure of inflation.
 Unemployment: Unemployment rate for the region.
+
 Key Insights from Dataset
 Holidays marginally impact weekly sales.
 Temperature and fuel prices show weak linear relationships with sales.
 CPI and unemployment have minor negative effects on weekly sales.
 Store-specific trends suggest the need for customized models.
+
 🎯 Goals
 Identify Influential Factors: Analyze relationships between features and weekly sales.
 Predict Sales: Build models to forecast sales based on historical data.
 Actionable Insights: Provide recommendations for business strategy optimization.
+
 🛠️ Methods and Tools
 Data Analysis
 Exploratory Data Analysis (EDA):
 Correlation analysis using a heatmap.
 Scatter plots and box plots to visualize trends.
-ANOVA for categorical variables (e.g., holidays).
+
 Modeling
 Linear Regression:
 Quantified the impact of variables like temperature, unemployment, and CPI.
-Random Forest Regressor:
-Used for feature importance and non-linear relationship modeling.
+
 ARIMA:
 Forecasted future weekly sales using time series analysis.
+
 Tools Used
 Python Libraries: pandas, numpy, matplotlib, seaborn, sklearn, statsmodels.
 Visualization: Correlation heatmaps, feature importance charts, and ACF/PACF plots.
+
 📊 Results
 Correlation Analysis:
 Weak correlations between Weekly_Sales and most variables, indicating minimal linear relationships.
@@ -45,6 +49,7 @@ Moderate negative correlation between Store and Weekly_Sales, suggesting store-s
 Modeling Insights:
 Random Forest revealed Holiday_Flag and Temperature as moderately influential factors.
 ARIMA produced accurate forecasts for weekly sales trends.
+
 🚀 How to Run
 Requirements
 Python 3.7+
@@ -77,10 +82,12 @@ Copy code
 │   ├── forecasts.csv          # Predicted sales
 ├── README.md                  # Project documentation
 ├── requirements.txt           # Python dependencies
+
 📈 Future Scope
 Integrate additional features (e.g., regional demographics, promotions) for better predictions.
 Explore deep learning models like LSTMs for improved forecasting.
 Analyze sales trends at a finer granularity (e.g., daily data).
+
 🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with a detailed description of your changes.
 
